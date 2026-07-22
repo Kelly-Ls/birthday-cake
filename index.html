@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System.out.println("Happy Birthday!");</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Canvas for particle cake rendering -->
+    <canvas id="cakeCanvas"></canvas>
+
+    <!-- Overlay UI for programmer aesthetic -->
+    <div class="terminal-overlay">
+        <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="title">bash - birthday_kernel.sh</span>
+        </div>
+        <div class="terminal-body">
+            <p><span class="prompt">$</span> ./initialize_cake.sh --target="My Love"</p>
+            <p class="status">[INFO] Compiling memory particles... <span class="success">SUCCESS</span></p>
+            <p class="status">[INFO] Lighting candle threads... <span class="success">ACTIVE</span></p>
+            <p class="instruction">> Allow microphone access & blow into your mic to extinguish the candle! <br> (Or click the screen if mic is unavailable)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
